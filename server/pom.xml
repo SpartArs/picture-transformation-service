@@ -36,6 +36,13 @@
             <optional>true</optional>
         </dependency>
         <dependency>
+            <groupId>com.nugumanov.waveletimageconversion</groupId>
+            <artifactId>wavelet-image-conversion</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/libs/wavelet-image-conversion-1.0-SNAPSHOT.jar</systemPath>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
